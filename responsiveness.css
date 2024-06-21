@@ -1,0 +1,293 @@
+/* =======Media Querry======= */
+@media (max-width: 768px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
+
+  #navBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #E3E6F3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+
+  #navBar.active {
+    right: 0px;
+  }
+
+  #navBar li {
+    margin-bottom: 25px;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  #mobile i {
+    color: #1a1a1a;
+    font-style: 24px;
+    padding-left: 20px;
+  }
+
+  #close {
+    color: #222;
+    position: absolute;
+    display: initial;
+    top: 30px;
+    left: 30px;
+    font-style: 24px;
+  }
+
+  #lgBag {
+    display: none;
+  }
+
+  #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+
+  #feature {
+    justify-content: center;
+  }
+
+  #feature .feBox {
+    margin: 15px 15px;
+  }
+
+  #product .proContainer {
+    justify-content: center;
+  }
+
+  #product .proContainer .pro {
+    margin: 15px;
+  }
+
+  #banner {
+    height: 20vh;
+  }
+
+  #banner2 .bannerBox {
+    min-width: 100%;
+    height: 30vh;
+  }
+
+  #banner3 {
+    padding: 0 40px;
+  }
+
+  #banner3 .bannerBox {
+    width: 28%;
+  }
+
+  #newsletter .form {
+    width: 70%;
+  }
+  
+  /* about  */
+  
+
+  #aboutHead img {
+    width: 60%;
+    padding: 10px;
+  }
+
+  #aboutHead div {
+    padding:20px 10px;
+    width: 100%;
+  }
+
+  #aboutApp .video {
+    width: 100%;
+  }
+
+  /* contact */
+  #formDetails{
+    padding: 40px;
+  }
+  #formDetails form{
+    width: 50%;
+  }
+}
+
+/* Mobile size */
+@media (max-width: 480px) {
+  .section-p1 {
+    padding: 20px;
+  }
+
+  #header {
+    padding: 10px 30px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  #hero {
+    padding: 0 20px;
+    background-position: 55%;
+  }
+
+  #feature {
+    justify-content: space-between;
+  }
+
+  #feature .feBox {
+    width: 155px;
+    margin: 0 0 15px 0;
+  }
+
+  #product .pro {
+    width: 100%;
+  }
+
+  #banner {
+    height: 40vh;
+  }
+
+  #banner2 .box-2 {
+    margin-top: 20px;
+  }
+
+  #banner3 {
+    padding: 0 20px;
+  }
+
+  #banner3 .bannerBox {
+    width: 100%;
+  }
+
+  #newsletter {
+    padding: 40px 20px;
+  }
+
+  #newsletter .form {
+    width: 100%;
+  }
+
+  footer .copyright {
+    text-align: start;
+  }
+
+  /* single product */
+  #proDetails {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #proDetails .singleProImg {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #proDetails .singleImgDetails {
+    width: 100%;
+  }
+
+  /* blog  */
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+
+  #blog .blogBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #blog .blogImg {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  #blog .blogDetails {
+    width: 100%;
+  }
+
+  /* about  */
+  #aboutHead {
+    flex-direction: column;
+  }
+
+  #aboutHead img {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #aboutHead div {
+    padding: 0 10px;
+    width: 100%;
+  }
+
+  #aboutApp .video {
+    width: 100%;
+  }
+  /* contact  */
+  #contactDetails {
+    flex-direction: column;
+  }
+  #contactDetails .details{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #contactDetails .map{
+    width: 100%;
+  }
+  #formDetails{
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+  }
+  #formDetails form{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #cartAdd{
+    flex-direction: column;
+  }
+  #cartAdd .coupon,
+  #subTotal {
+    width: 100%;
+  }
+}
+
+@media (max-width: 580px) {
+  #blog .blogImg {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  #blog .blogDetails {
+    width: 100%;
+  }
+
+  #blog .blogBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #blog {
+    padding: 90px 10px 10px 20px;
+  }
+
+}
